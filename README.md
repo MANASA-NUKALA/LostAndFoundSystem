@@ -183,7 +183,3 @@ Instead of using the `.bat` files, open a terminal in the project folder and run
   Open a command prompt, run the `.bat` file, and read the error message.
 
 ---
-
-## License
-
-MIT License (or specify your own)
