@@ -123,7 +123,8 @@ public static Connection getConnection() throws SQLException {
 
 1. **Compile:**
    ```
-   javac -cp .;lib\mysql-connector-j-9.3.0.jar */*.java
+  javac -cp .;lib\mysql-connector-j-9.3.0.jar client\*.java interfaces\*.java model\*.java server\*.java
+
    ```
 2. **Run the server:**
    ```
