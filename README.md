@@ -3,6 +3,8 @@
 A simple campus Lost & Found system using **Java RMI**, **Swing GUI**, and **MySQL**.  
 Users can report lost/found items and search for found items via a modern desktop interface.
 
+> 🔧 **Tech Stack**: Java | RMI | Swing GUI | MySQL
+
 ---
 
 ## Features
@@ -15,6 +17,8 @@ Users can report lost/found items and search for found items via a modern deskto
 - Java RMI-based client-server architecture
 
 ---
+- **View Found Items:**  
+  Use the "Search Item" feature to check if your lost item is already reported.
 
 ## Folder Structure
 
@@ -123,7 +127,8 @@ public static Connection getConnection() throws SQLException {
 
 1. **Compile:**
    ```
-  javac -cp .;lib\mysql-connector-j-9.3.0.jar client\*.java interfaces\*.java model\*.java server\*.java
+javac -cp .;lib\mysql-connector-j-9.3.0.jar client\*.java interfaces\*.java model\*.java server\*.java
+
 
    ```
 2. **Run the server:**
@@ -141,7 +146,8 @@ Instead of using the `.bat` files, open a terminal in the project folder and run
 
 1. **Compile:**
    ```
-   javac -cp .:lib/mysql-connector-j-9.3.0.jar */*.java
+   javac -cp .:lib/mysql-connector-j-9.3.0.jar client/*.java interfaces/*.java model/*.java server/*.java
+
    ```
 2. **Run the server:**
    ```
